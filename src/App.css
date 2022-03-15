@@ -1,0 +1,56 @@
+.fruit-counter {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.fruitform {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f9c74f;
+    width: 30%;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    width: 30%;
+    flex-flow: column nowrap;
+    background-color: #277da1;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 20px;
+}
+label {
+    margin: 5px;
+    color: white;
+}
+input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+textarea {
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+button {
+    background-color: #006466;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 14px;
+    color: white;
+}
+button:disabled {
+    background-color: #469d89;
+}
